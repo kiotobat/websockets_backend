@@ -1,0 +1,26 @@
+{
+  "name": "websockets_backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/kiotobat/websockets_backend",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiotobat/websockets_backend.git"
+  },
+  "license": "ISC",
+  "engines": {
+    "node": ">=16.0.0 <21.0.0"
+  },
+  "author": "Spartak",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "ws": "^8.18.3"
+  }
+}
